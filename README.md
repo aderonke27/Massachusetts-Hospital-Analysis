@@ -1,4 +1,4 @@
-# Massachusetts-General-Hospital-Analysis
+# Massachusettes-General-Hospital-Analysis
 
 ## Description
 Brief description of the project and its purpose
