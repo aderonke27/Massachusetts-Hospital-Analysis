@@ -1,7 +1,8 @@
 # Massachusetts-General-Hospital-Analysis
 
-## Description: Brief description of the project and its purpose
- Example: “A data analysis project for Metro Good, conducted as part of the STC 6-Week Data Analyst Mentorship. The project includes data cleaning, analysis, visualization, and actionable recommendations.”
+## Description
+Brief description of the project and its purpose
+Example: “A data analysis project for Metro Good, conducted as part of the STC 6-Week Data Analyst Mentorship. The project includes data cleaning, analysis, visualization, and actionable recommendations.”
 
 ## Table of Contents
 1. [Introduction](#introduction)  
@@ -27,17 +28,17 @@ Example: “The project covers data collection, cleaning, analysis, visualizatio
 
 ## Project Aim
 The main objective of this project is to analyze medical records collected internally from the hospital between 2011 and 2022 to provide solutions that guide better decision-making thus answering key business questions such as:
-•	What are the total and average hospital costs by year and procedure type?
-•	What are the top 5 most expensive procedures and encounters?
-•	What is the average length of stay per procedure and encounter?
-•	What encounter and procedure is causing the longest stay?
-•	How does the average length of stay vary across encounters and age groups?
-•	Which year recorded the highest claim and base costs by procedure and encounter?
-•	Is there a relationship between encounter length of stay (LOS) and total claim cost?
-•	Which payer has the highest insurance coverage?
-•	Number of insured patients and uninsured patients
-•	Number of patients readmitted
-•	What is the readmission rate?
+* What are the total and average hospital costs by year and procedure type?
+* What are the top 5 most expensive procedures and encounters?
+* What is the average length of stay per procedure and encounter?
+* What encounter and procedure is causing the longest stay?
+* How does the average length of stay vary across encounters and age groups?
+* Which year recorded the highest claim and base costs by procedure and encounter?
+* Is there a relationship between encounter length of stay (LOS) and total claim cost?
+* Which payer has the highest insurance coverage?
+* Number of insured patients and uninsured patients
+* Number of patients readmitted
+* What is the readmission rate?
 
 ## About the Dataset
 Document dataset details:
@@ -67,22 +68,13 @@ Document any calculated fields, DAX measures, or relationships in Power BI/Excel
 List metrics, KPIs, or columns analyzed:
 
 ## Data Visualization
-Four dashboards were created: Masachusettes Hospital Dashboard, Length of Stay Analysis, Cost Analysis, and Insurance and Readmission Analysis Dashboards
-Document dashboards/pages and charts used:
-Dashboard/Page 1: Sales Performance Overview
-KPI Cards: Total Sales, Average Revenue, Top Product
-Bar Chart: Sales by Region
-Line Chart: Sales Trend Over Time
-Dashboard/Page 2: Customer Demographics
-Pie Chart: Gender Distribution
-Bar Chart: Age Groups
-Table: Customer Segments
-Dashboard/Page 3: Regional Trends & KPIs
-Map: Sales by State
-Lollipop Chart: Top Products by Revenue
-Funnel Chart: Conversion Rates
+Four dashboards were created:
+* Masachusettes Hospital Dashboard (page 1)
+* Length of Stay Analysis (page 2)
+* Cost Analysis (page 3)
+* Insurance and Readmission Analysis (page 4)
 ### Masachusettes Hospital Dashboard
-•	KPI Cards
+•	KPI Cards: Total Patients, Total Readmitted Patients, Total Encounters, Total Encounter Claim Cost, Total Paid Out of Pocket, Total Insurance Coverage.
 •	Bar Chart
 •	Column Chart
 •	Line Chart
@@ -132,9 +124,8 @@ Stakeholder: Hospital Management & Health Insurance Providers
 Recommendation: Strengthen partnerships with Medicare while also engaging other insurers to expand patient access and diversify revenue.
 
 ## Conclusion
-Summarize findings and the potential impact on business decisions:
-Example: “Insights from sales and customer data provide guidance for inventory, marketing, and product strategies to maximize revenue.”
+The recommendations emphasize cost control, operational efficiency, patient-centered care, and data-driven planning. By optimizing high-cost procedures, improving patient flow, addressing long stays among younger patients, and balancing insurance partnerships, the hospital can achieve better financial sustainability, enhanced patient outcomes, and improved overall efficiency.
 
 ## Contact Information
 LinkedIn: [Insert Link]
-Email: aladeloyeesther616!gmail.com
+Email: aladeloyeesther616@gmail.com
