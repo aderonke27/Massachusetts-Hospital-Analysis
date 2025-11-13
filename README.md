@@ -68,31 +68,33 @@ Document any calculated fields, DAX measures, or relationships in Power BI/Excel
 List metrics, KPIs, or columns analyzed:
 
 ## Data Visualization
-Four dashboards were created:
+A four-page dashboard was created:
 * Masachusettes Hospital Dashboard (page 1)
 * Length of Stay Analysis (page 2)
 * Cost Analysis (page 3)
 * Insurance and Readmission Analysis (page 4)
 ### Masachusettes Hospital Dashboard
-•	KPI Cards: Total Patients, Total Readmitted Patients, Total Encounters, Total Encounter Claim Cost, Total Paid Out of Pocket, Total Insurance Coverage.
-•	Bar Chart
-•	Column Chart
-•	Line Chart
+* KPI Cards: Total Patients, Total Readmitted Patients, Total Encounters, Total Encounter Claim Cost, Total Paid Out of Pocket, Total Insurance Coverage
+* Bar Chart: Top 5 Encounter Type by Total Claim Cost, Top 5 Procedure Type by Total Base Cost
+* Column Chart: Avg Encounter Claim Cost by Age Group, Avg Encounter LOS (days) by Age Group
+* Line Chart: Total Encounter Claim Cost by Month
+* Slicer: Yearly Trends
 ### Length of Stay Analysis
-•	KPI Cards
-•	Bar Chart
-•	Column Chart
-•	Scattered Plot
+* KPI Cards: Avg Encounter LOS (days), Avg Procedure LOS (days)
+* Bar Chart: Top 20 Procedure by Avg LOS (days), Top 10 Encounter Type by Avg LOS (days)
+* Column Chart: Avg Encounter LOS (days) by Encounter Class, Avg Encounter LOS (days) by Age Group
+* Scattered Plot: Relationship btw LOS and Claim Cost by Encounter
 ### Cost Analysis
-•	KPI Cards
-•	Donut Chart
-•	Bar Chart
-•	Line Chart
+*	KPI Cards: Total Procedure Base Cost, Total Encounter Base Cost, Total Encounter Claim Cost, Total Paid Out of Pocket, Avg Paid out of Pocket, Avg Encounter Claim Cost, Avg Encounter Base Cost, Avg Procedure Base Cost
+*	Donut Chart: Avg Encounter Claim Cost by Gender
+*	Bar Chart: Top 10 Procedure Type by Avg Base Cost, Top 10 Encounter Type by Avg Claim Cost
+*	Line Chart: Total Procedre Base Cost by Month
+*	Slicer: Yearly Trend
 ### Insurance and Readmission Analysis
-•	KPI Cards
-•	Bar Chart
-•	Column Chart
-•	Donut Chart
+*	KPI Cards: Total Patients, Insured Patients, Uninsured Patients, Total Encounter Claim Cost, Total Insurance Coverage, Total Paid Out of Pocket, Readmission Rate, Total Readmitted Patients
+*	Bar Chart: Top 10 Encounter Type by Total Payer Coverage, Top 10 Encounter Type by Total Paid Out of Pocket
+*	Column Chart: Top 3 Payers by Total Coverage, Avg Paid Out of Pocket by Age Group
+*	Donut Chart: Encounter by Insurannce Coverage
 
 ## View Dashboards
 
