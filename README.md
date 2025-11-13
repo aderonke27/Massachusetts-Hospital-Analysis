@@ -23,8 +23,18 @@ Explain the project’s scope and approach.
 Example: “The project covers data collection, cleaning, analysis, visualization, and recommendations to address specific business questions identified in Week 1.”
 
 ## Project Aim
-State the goal or key question:
-Example: “To analyze sales and customer data to identify trends, derive insights, and provide actionable recommendations for stakeholders.”
+The main objective of this project is to analyze medical records collected internally from the hospital between 2011 and 2022 to provide solutions that guide better decision-making thus answering key business questions such as:
+•	What are the total and average hospital costs by year and procedure type?
+•	What are the top 5 most expensive procedures and encounters?
+•	What is the average length of stay per procedure and encounter?
+•	What encounter and procedure is causing the longest stay?
+•	How does the average length of stay vary across encounters and age groups?
+•	Which year recorded the highest claim and base costs by procedure and encounter?
+•	Is there a relationship between encounter length of stay (LOS) and total claim cost?
+•	Which payer has the highest insurance coverage?
+•	Number of insured patients and uninsured patients
+•	Number of patients readmitted
+•	What is the readmission rate?
 
 ## About the Dataset
 Document dataset details:
@@ -34,6 +44,9 @@ Key fields/columns
 
 ## Tools Used
 Microsoft Excel | Power BI
+
+## Importing the Dataset to Excel
+The datasets were imported as a CSV file into Excel. Duplicate copy was created for each before launching Power Query for transformation.
 
 ## Data Cleaning & Transformation
 Steps taken to clean and prepare the data:
@@ -128,13 +141,13 @@ Stakeholder: Clinical and Medical Teams
 Recommendation: Streamline evaluation processes and dialysis scheduling to improve patient flow, reduce waiting time, and optimize bed utilization.
 
 Stakeholder: Health Information Officers & Clinical Teams
-n\ Recommendation: Investigate causes of longer stays (e.g., lifestyle, chronic conditions) and implement targeted wellness or preventive health programs for younger adults.
+Recommendation: Investigate causes of longer stays (e.g., lifestyle, chronic conditions) and implement targeted wellness or preventive health programs for younger adults.
 
 Stakeholder: Hospital Management & Health Insurance Providers
 Recommendation: Analyze cost fluctuations to uncover root causes (policy changes, resource use, patient load) and implement strategies for stable budgeting and claim management.
 
 Stakeholder: Hospital Management & Clinical Teams
-\n Recommendation: Adopt early discharge planning, reinforce post-discharge monitoring, and implement case management systems to reduce avoidable prolonged stays.
+Recommendation: Adopt early discharge planning, reinforce post-discharge monitoring, and implement case management systems to reduce avoidable prolonged stays.
 
 Stakeholder: Hospital Management & Health Insurance Providers
 Recommendation: Strengthen partnerships with Medicare while also engaging other insurers to expand patient access and diversify revenue.
