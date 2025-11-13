@@ -107,23 +107,23 @@ A four-page dashboard was created:
 * Medicare recorded the highest insurance coverage among payers.
 
 ## Recommendations
-Stakeholder: Hospital Management (Medical Director)
-Recommendation: Review cost structures for these high-cost procedures to identify opportunities for cost optimization, better resource allocation, and preventive strategies that can reduce expensive admissions
+* Stakeholder: Hospital Management (Medical Director)
+* Recommendation: Review cost structures for these high-cost procedures to identify opportunities for cost optimization, better resource allocation, and preventive strategies that can reduce expensive admissions
 
-Stakeholder: Clinical and Medical Teams
-Recommendation: Streamline evaluation processes and dialysis scheduling to improve patient flow, reduce waiting time, and optimize bed utilization.
+* Stakeholder: Clinical and Medical Teams
+* Recommendation: Streamline evaluation processes and dialysis scheduling to improve patient flow, reduce waiting time, and optimize bed utilization.
 
-Stakeholder: Health Information Officers & Clinical Teams
-Recommendation: Investigate causes of longer stays (e.g., lifestyle, chronic conditions) and implement targeted wellness or preventive health programs for younger adults.
+* Stakeholder: Health Information Officers & Clinical Teams
+* Recommendation: Investigate causes of longer stays (e.g., lifestyle, chronic conditions) and implement targeted wellness or preventive health programs for younger adults.
 
-Stakeholder: Hospital Management & Health Insurance Providers
-Recommendation: Analyze cost fluctuations to uncover root causes (policy changes, resource use, patient load) and implement strategies for stable budgeting and claim management.
+* Stakeholder: Hospital Management & Health Insurance Providers
+* Recommendation: Analyze cost fluctuations to uncover root causes (policy changes, resource use, patient load) and implement strategies for stable budgeting and claim management.
 
-Stakeholder: Hospital Management & Clinical Teams
-Recommendation: Adopt early discharge planning, reinforce post-discharge monitoring, and implement case management systems to reduce avoidable prolonged stays.
+* Stakeholder: Hospital Management & Clinical Teams
+* Recommendation: Adopt early discharge planning, reinforce post-discharge monitoring, and implement case management systems to reduce avoidable prolonged stays.
 
-Stakeholder: Hospital Management & Health Insurance Providers
-Recommendation: Strengthen partnerships with Medicare while also engaging other insurers to expand patient access and diversify revenue.
+* Stakeholder: Hospital Management & Health Insurance Providers
+* Recommendation: Strengthen partnerships with Medicare while also engaging other insurers to expand patient access and diversify revenue.
 
 ## Conclusion
 The recommendations emphasize cost control, operational efficiency, patient-centered care, and data-driven planning. By optimizing high-cost procedures, improving patient flow, addressing long stays among younger patients, and balancing insurance partnerships, the hospital can achieve better financial sustainability, enhanced patient outcomes, and improved overall efficiency.
