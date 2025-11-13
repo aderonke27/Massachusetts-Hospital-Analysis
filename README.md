@@ -128,13 +128,13 @@ Stakeholder: Clinical and Medical Teams
 Recommendation: Streamline evaluation processes and dialysis scheduling to improve patient flow, reduce waiting time, and optimize bed utilization.
 
 Stakeholder: Health Information Officers & Clinical Teams
-Recommendation: Investigate causes of longer stays (e.g., lifestyle, chronic conditions) and implement targeted wellness or preventive health programs for younger adults.
+n\ Recommendation: Investigate causes of longer stays (e.g., lifestyle, chronic conditions) and implement targeted wellness or preventive health programs for younger adults.
 
 Stakeholder: Hospital Management & Health Insurance Providers
 Recommendation: Analyze cost fluctuations to uncover root causes (policy changes, resource use, patient load) and implement strategies for stable budgeting and claim management.
 
 Stakeholder: Hospital Management & Clinical Teams
-Recommendation: Adopt early discharge planning, reinforce post-discharge monitoring, and implement case management systems to reduce avoidable prolonged stays.
+\n Recommendation: Adopt early discharge planning, reinforce post-discharge monitoring, and implement case management systems to reduce avoidable prolonged stays.
 
 Stakeholder: Hospital Management & Health Insurance Providers
 Recommendation: Strengthen partnerships with Medicare while also engaging other insurers to expand patient access and diversify revenue.
