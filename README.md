@@ -1,7 +1,9 @@
-# **Massachusetts-General-Hospital-Analysis**
+# Massachusetts-General-Hospital-Analysis
 
-## **Table of Contents**
+## Description: Brief description of the project and its purpose
+ Example: “A data analysis project for Metro Good, conducted as part of the STC 6-Week Data Analyst Mentorship. The project includes data cleaning, analysis, visualization, and actionable recommendations.”
 
+## Table of Contents
 1. [Introduction](#introduction)  
 2. [Project Description](#project-description)  
 3. [Project Aim](#project-aim)  
@@ -13,10 +15,11 @@
 9. [Data Visualization in Excel](#data-visualization-in-excel)  
 10. [Insights from the Data Analysis](#insights-from-the-data-analysis)  
 11. [Recommendations from the Data Analysis](#recommendations-from-the-data-analysis)  
-12. [Conclusion](#conclusion)  
+12. [Conclusion](#conclusion)
 
-## Description: Brief description of the project and its purpose
- Example: “A data analysis project for Metro Good, conducted as part of the STC 6-Week Data Analyst Mentorship. The project includes data cleaning, analysis, visualization, and actionable recommendations.”
+## Introduction
+Provide a brief background about the project and why it is important.
+Example: “This project analyzes customer and sales data to uncover trends, generate insights, and provide actionable recommendations that support business decision-making.”
 
 ## Project Description
 Explain the project’s scope and approach.
@@ -45,23 +48,26 @@ Key fields/columns
 ## Tools Used
 Microsoft Excel | Power BI
 
-## Importing the Dataset to Excel
-The datasets were imported as a CSV file into Excel. Duplicate copy was created for each before launching Power Query for transformation.
+## Importing the Dataset
+The datasets were imported as a CSV file into Excel for cleaning. Duplicate copy was created for each before launching Power Query for transformation. After which the datasets were loaded into Power BI for analysis and visualization
 
 ## Data Cleaning & Transformation
-Steps taken to clean and prepare the data:
-Removed duplicates
-Fixed missing values
-Standardized column names
-Changed data types
+* Removed duplicates
+* Changes column names for clarity e.g. patient to patient id, encounters to encounter id, id to payer id in payers table
+* Changes column type (base cost) to currency in procedure table
+* Converted all text-based date to actual date format
+* Standardized gender values to male and female
+* Standardized marital values to single and married
+* Standardized entries in the state headquarter column in the payers table
 
-## Data Modeling (if applicable)
+## Data Modeling
 Document any calculated fields, DAX measures, or relationships in Power BI/Excel Power Pivot.
 
 ## Data Analysis
 List metrics, KPIs, or columns analyzed:
 
 ## Data Visualization
+Four dashboards were created: Masachusettes Hospital Dashboard, Length of Stay Analysis, Cost Analysis, and Insurance and Readmission Analysis Dashboards
 Document dashboards/pages and charts used:
 Dashboard/Page 1: Sales Performance Overview
 KPI Cards: Total Sales, Average Revenue, Top Product
@@ -75,56 +81,29 @@ Dashboard/Page 3: Regional Trends & KPIs
 Map: Sales by State
 Lollipop Chart: Top Products by Revenue
 Funnel Chart: Conversion Rates
+### Masachusettes Hospital Dashboard
+•	KPI Cards
+•	Bar Chart
+•	Column Chart
+•	Line Chart
+### Length of Stay Analysis
+•	KPI Cards
+•	Bar Chart
+•	Column Chart
+•	Scattered Plot
+### Cost Analysis
+•	KPI Cards
+•	Donut Chart
+•	Bar Chart
+•	Line Chart
+### Insurance and Readmission Analysis
+•	KPI Cards
+•	Bar Chart
+•	Column Chart
+•	Donut Chart
 
+## View Dashboards
 
-
-## **Introduction**
-Provide a brief background about the project and why it is important.
-Example: “This project analyzes customer and sales data to uncover trends, generate insights, and provide actionable recommendations that support business decision-making.”
-
-## **Project Description**
-
-
-
-## **Project Aim**
-
-
-
-## **About the Dataset**
-
-
-
-## **Preparation of the Dataset: Cleaning and Transforming**
-
-
-## **Data Modeling in Excel**
-
-
-## **Data Analysis in Excel**
-
-
-## **Data Visualization in Excel**
-
-Example: “Imported CSV files into Excel for cleaning, then loaded into Power BI for visualization.”
-Two dashboards were created: an **Overview Dashboard** and an **Insights Dashboard**.
-
-### **Overview Dashboard**
-- **KPI Cards**: Avg ROI, Avg Years to Unicorn, Total Unicorn Companies, Total Investors.
-- **Bar Chart**: Top 10 Investors in Unicorn Companies.
-- **Line Chart**: Time Taken to Reach Unicorn Status.
-- **Lollipop Chart**: Top 5 Unicorn Companies by ROI.
-- **Map**: Countries Producing the Most Unicorns.
-
-### **Insights Dashboard**
-- **Bar Chart**: Top Industries by ROI.
-- **Bar Chart**: Top Cities by ROI.
-- **Bar Chart**: Top 5 Investors.
-- **Bar Chart**: Average Years to Unicorn by Industry.
-- **Bar Chart**: Top 5 Industries by Investment.
-- **Bar Chart**: Top Cities with the Most Unicorns.
-- **Slicer**: Continent filter for dynamic analysis.
-
-- ### **View Dashboards**
 ## Key Insights
 * Myocardial Infarction and Prenatal Initial Visit had the highest total claim costs, while “Admit to ICU” incurred the highest base cost.
 * Periodic reevaluation and management of healthy individuals had the longest encounter durations, while Renal Dialysis dominated in procedure-level length of stay.
@@ -152,10 +131,10 @@ Recommendation: Adopt early discharge planning, reinforce post-discharge monitor
 Stakeholder: Hospital Management & Health Insurance Providers
 Recommendation: Strengthen partnerships with Medicare while also engaging other insurers to expand patient access and diversify revenue.
 
-## **Conclusion**
+## Conclusion
 Summarize findings and the potential impact on business decisions:
 Example: “Insights from sales and customer data provide guidance for inventory, marketing, and product strategies to maximize revenue.”
 
-## **Contact Information**
+## Contact Information
 LinkedIn: [Insert Link]
 Email: aladeloyeesther616!gmail.com
