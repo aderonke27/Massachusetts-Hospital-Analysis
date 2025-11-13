@@ -129,5 +129,5 @@ Recommendation: Strengthen partnerships with Medicare while also engaging other 
 The recommendations emphasize cost control, operational efficiency, patient-centered care, and data-driven planning. By optimizing high-cost procedures, improving patient flow, addressing long stays among younger patients, and balancing insurance partnerships, the hospital can achieve better financial sustainability, enhanced patient outcomes, and improved overall efficiency.
 
 ## Contact Information
-LinkedIn: [Insert Link]
-Email: aladeloyeesther616@gmail.com
+* LinkedIn: [Insert Link]
+ Email: aladeloyeesther616@gmail.com
