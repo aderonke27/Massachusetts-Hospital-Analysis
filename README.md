@@ -7,15 +7,17 @@ A data analysis project for Massachusettes General Hospital, conducted as part o
 1. [Introduction](#introduction)  
 2. [Project Description](#project-description)  
 3. [Project Aim](#project-aim)  
-4. [About the Dataset](#about-the-dataset)  
-5. [Importing the Dataset to Excel](#importing-the-dataset-to-excel)  
-6. [Preparation of the Dataset: Cleaning and Transforming](#preparation-of-the-dataset-cleaning-and-transforming)  
-7. [Data Modeling in Excel](#data-modeling-in-excel)  
-8. [Data Analysis in Excel](#data-analysis-in-excel)  
-9. [Data Visualization in Excel](#data-visualization-in-excel)  
-10. [Insights from the Data Analysis](#insights-from-the-data-analysis)  
-11. [Recommendations from the Data Analysis](#recommendations-from-the-data-analysis)  
-12. [Conclusion](#conclusion)
+4. [About the Dataset](#about-the-dataset)
+5. [Tools Used](#tools-used)  
+6. [Importing the Dataset](#importing-the-dataset)  
+7. [Data Cleaning and Transformation](#data-cleaning-and-transformation)  
+8. [Data Modeling](#data-modeling)  
+9. [Data Analysis](#data-analysis)  
+10. [Data Visualization](#data-visualization)  
+11. [Key Insights](#key-insights)  
+12. [Recommendations](#recommendations)  
+13. [Conclusion](#conclusion)
+14. [Contact Information](#contact-information)
 
 ## Introduction
 This project analyzes synthetic medical records from Massachusetts General Hospital (2011–2022) to investigate key operational challenges including high patient readmission rates, prolonged hospital stays, elevated procedure costs, and insufficient insurance coverage. The goal is to uncover data-driven insights that support better decision-making, reduce healthcare costs, enhance patient outcomes, and improve the hospital’s overall resource efficiency through effective patient care strategies and optimized hospital operations.
@@ -40,8 +42,7 @@ The main objective of this project is to analyze medical records collected inter
 * What is the readmission rate?
 
 ## About the Dataset
-This dataset contains synthetic medical records from Massachusetts General Hospital between 2011 and 2022. It covers approximately 1,000 patients and includes details on  
-hospital visits, procedures, insurance coverage, and patient demographics.
+This dataset contains synthetic medical records from Massachusetts General Hospital between 2011 and 2022. It covers approximately 1,000 patients and includes details on hospital visits, procedures, insurance coverage, and patient demographics.
 
 There are 5 main datasets:  
 * Patient Table – Contains patient-level details like age, gender, and ID.
@@ -56,7 +57,7 @@ Microsoft Excel | Power BI
 ## Importing the Dataset
 The datasets were imported as a CSV file into Excel for cleaning. Duplicate copy was created for each before launching Power Query for transformation. After which the datasets were loaded into Power BI for analysis and visualization
 
-## Data Cleaning & Transformation
+## Data Cleaning and Transformation
 * Removed duplicates
 * Changes column names for clarity e.g. patient to patient id, encounters to encounter id, id to payer id in payers table
 * Changes column type (base cost) to currency in procedure table
@@ -110,8 +111,7 @@ A four-page dashboard was created:
 *	Bar Chart: Top 10 Encounter Type by Total Payer Coverage, Top 10 Encounter Type by Total Paid Out of Pocket
 *	Column Chart: Top 3 Payers by Total Coverage, Avg Paid Out of Pocket by Age Group
 *	Donut Chart: Encounter by Insurannce Coverage
-
-## View Dashboards
+### View Dashboards
 <img width="1422" height="866" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/9bd9d174-adc9-4339-9134-676dcd5df7f7" />
 <img width="1423" height="871" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/80bfdf28-b87c-4979-802a-7a1704101b69" />
 <img width="1414" height="863" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/5d59706b-3592-47a0-9f6b-40c47ae05f46" />
@@ -120,7 +120,7 @@ A four-page dashboard was created:
 ## Key Insights
 * Myocardial Infarction and Prenatal Initial Visit had the highest total claim costs, while “Admit to ICU” incurred the highest base cost.
 * Periodic reevaluation and management of healthy individuals had the longest encounter durations, while Renal Dialysis dominated in procedure-level length of stay.
-* Patients aged 18–34 had the longest average stay, indicating higher hospitalization or treatment needs among younger adults.
+* The youth age group had the longest average stay, indicating higher hospitalization or treatment needs among younger adults.
 * Total and base claim costs fluctuated over the years, with noticeable peaks around 2015 and slight declines afterward.
 * Longer stays are associated with higher total claim costs, though most encounters are of short duration.
 * Medicare recorded the highest insurance coverage among payers.
