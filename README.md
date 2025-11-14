@@ -97,6 +97,10 @@ A four-page dashboard was created:
 *	Donut Chart: Encounter by Insurannce Coverage
 
 ## View Dashboards
+<img width="1920" height="1080" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/8a104a09-dc8a-46c7-b2c9-c266c9ab50f2" />
+<img width="1920" height="1080" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/673e6d38-4c6d-4906-8dc0-491eaa15b987" />
+<img width="1920" height="1080" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/e0df720c-f953-4c27-b5aa-60b375b7e7a6" />
+<img width="1920" height="1080" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/9b61b2c1-f1da-4472-a1ab-5184dce66c41" />
 
 ## Key Insights
 * Myocardial Infarction and Prenatal Initial Visit had the highest total claim costs, while “Admit to ICU” incurred the highest base cost.
