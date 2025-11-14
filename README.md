@@ -1,8 +1,7 @@
 # Massachusettes-General-Hospital-Analysis
 
 ## Description
-Brief description of the project and its purpose
-Example: “A data analysis project for Metro Good, conducted as part of the STC 6-Week Data Analyst Mentorship. The project includes data cleaning, analysis, visualization, and actionable recommendations.”
+A data analysis project for Massachusettes General Hospital, conducted as part of the STC 6-Week Data Analyst Mentorship. The project includes data cleaning, analysis, visualization, and actionable recommendations.
 
 ## Table of Contents
 1. [Introduction](#introduction)  
@@ -19,12 +18,12 @@ Example: “A data analysis project for Metro Good, conducted as part of the STC
 12. [Conclusion](#conclusion)
 
 ## Introduction
-Provide a brief background about the project and why it is important.
-Example: “This project analyzes customer and sales data to uncover trends, generate insights, and provide actionable recommendations that support business decision-making.”
+This project analyzes synthetic medical records from Massachusetts General Hospital (2011–2022) to investigate key operational challenges including high patient readmission rates, prolonged hospital stays, elevated procedure costs, and insufficient insurance coverage. The goal is to uncover data-driven insights that support better decision-making, reduce healthcare costs, enhance patient outcomes, and improve the hospital’s overall resource efficiency through effective patient care strategies and optimized hospital operations.
 
 ## Project Description
-Explain the project’s scope and approach.
-Example: “The project covers data collection, cleaning, analysis, visualization, and recommendations to address specific business questions identified in Week 1.”
+The scope of this project focuses on analyzing synthetic medical records from Massachusetts General Hospital between 2011 and 2022 to understand key operational and clinical challenges. The analysis covers patient demographics, readmission patterns, length of stay, procedure costs, and insurance coverage gaps. It also examines how these factors affect patient outcomes, hospital efficiency, and overall resource utilization, with the goal of identifying high-risk groups, cost drivers, and areas where care delivery can be optimized.
+
+The approach involves a structured workflow beginning with comprehensive data cleaning and preparation to ensure consistency and accuracy across the dataset. Exploratory data analysis (EDA) is then performed to uncover trends, correlations, and anomalies that guide deeper investigation. Using statistical analysis and visualization techniques, the project identifies patterns related to readmissions, costs, and service utilization. Finally, insights are summarized into actionable recommendations to help the hospital reduce operational costs, improve patient outcomes, and allocate resources more efficiently.
 
 ## Project Aim
 The main objective of this project is to analyze medical records collected internally from the hospital between 2011 and 2022 to provide solutions that guide better decision-making thus answering key business questions such as:
@@ -41,10 +40,15 @@ The main objective of this project is to analyze medical records collected inter
 * What is the readmission rate?
 
 ## About the Dataset
-Document dataset details:
-Source (e.g., company database, Kaggle)
-Number of rows and columns
-Key fields/columns
+This dataset contains synthetic medical records from Massachusetts General Hospital between 2011 and 2022. It covers approximately 1,000 patients and includes details on  
+hospital visits, procedures, insurance coverage, and patient demographics.
+
+There are 5 main datasets:  
+* Patient Table – Contains patient-level details like age, gender, and ID.
+* Encounter Table – Records each hospital visit (inpatient, outpatient, emergency, etc.), including admission and discharge dates, costs, and readmission details.
+* Payer Table – Contains information about the patient’s insurance coverage or lack of it.
+* Procedure Table – Records the medical procedures done during each encounter, linked by IDs.
+* Dictionary Table – A reference table to decode procedure categories and types.  
 
 ## Tools Used
 Microsoft Excel | Power BI
@@ -62,10 +66,21 @@ The datasets were imported as a CSV file into Excel for cleaning. Duplicate copy
 * Standardized entries in the state headquarter column in the payers table
 
 ## Data Modeling
-Document any calculated fields, DAX measures, or relationships in Power BI/Excel Power Pivot.
+* Created a measure called average lenght of stay
+* Created a new column with cleaned encounter date
+* Extracted the years in the date column into a new column
 
 ## Data Analysis
-List metrics, KPIs, or columns analyzed:
+Key Performance Indicators (KPIs) analyzed:
+* Total Patients
+* Total Readmitted Patients
+* Total Encounters
+* Total Encounter Claim Cost
+* Total Paid Out of Pocket
+* Total Insurance Coverage
+* Readmission Rate
+* Insured Patients
+* Uninsured Patients
 
 ## Data Visualization
 A four-page dashboard was created:
@@ -97,10 +112,10 @@ A four-page dashboard was created:
 *	Donut Chart: Encounter by Insurannce Coverage
 
 ## View Dashboards
-<img width="1920" height="1080" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/8a104a09-dc8a-46c7-b2c9-c266c9ab50f2" />
-<img width="1920" height="1080" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/673e6d38-4c6d-4906-8dc0-491eaa15b987" />
-<img width="1920" height="1080" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/e0df720c-f953-4c27-b5aa-60b375b7e7a6" />
-<img width="1920" height="1080" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/9b61b2c1-f1da-4472-a1ab-5184dce66c41" />
+<img width="1422" height="866" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/9bd9d174-adc9-4339-9134-676dcd5df7f7" />
+<img width="1423" height="871" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/80bfdf28-b87c-4979-802a-7a1704101b69" />
+<img width="1414" height="863" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/5d59706b-3592-47a0-9f6b-40c47ae05f46" />
+<img width="1428" height="889" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/7ba30e90-cd5f-43d1-b3d4-d605511c54ed" />
 
 ## Key Insights
 * Myocardial Infarction and Prenatal Initial Visit had the highest total claim costs, while “Admit to ICU” incurred the highest base cost.
